@@ -1,1 +1,1 @@
-Lista de una receta usando html
+Lista de recetas en HTML

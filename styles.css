@@ -5,7 +5,8 @@ body{
 .container{
     background-color: rgb(167, 200, 236);
     margin: 16px auto;
-    width: 400px;
+    width: 350px;
+    border-radius: 15px;
 }
 
 .header{
@@ -13,6 +14,7 @@ body{
     color: white;
     background-color: rgb(69, 160, 148);
     padding: 5px;
+    border-radius: 15px 2px;
 }
 
 .recipes{

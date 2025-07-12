@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(243, 249, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 550px;
+    background: #b9dfd8;
+    margin: 16px auto;
+    padding: 10px;
+}
+
+.header{
+    background-color: rgb(230, 243, 255);
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+}
+
+.title{
+    padding: 12px;
+    margin: 0px;
+    font-size: 27px;
+}
+
+.card{
+    background-color: rgb(230, 243, 255);
+    padding: 0px 20px;
+}
+
+.title-2{
+    padding-top: 12px ;
+    font-size: 24px;
+}
+
+.bod{
+    margin: 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+.p-3{
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.footer{
+    background-color:  rgb(230, 243, 255);
+    padding: 0px 20px 20px 20px;
+}
+
+table{
+    margin: 0px auto;
+    border-collapse: collapse;
+    width: 380px;
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid rgb(20, 143, 243);
+} 
+
+.title-3{
+    padding: 15px 0px;
+    margin: 0px;
+    font-size: 23px;
+}
+
+.footer-2{
+    background-color:  rgb(230, 243, 255);
+    padding: 15px;
+}
+
+.anchor-2{
+  margin-left: 325px;
+}
+
+.footer-3{
+    width: 550px;
+    background: #b9dfd8;
+    margin: 16px auto;
+    padding: 10px;
+    color: #878b8b;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(94, 133, 168);
+}
+
+.text-footer{
+    text-align: center;
+}
+
+b{
+    color: rgb(23, 108, 177);
+    font-weight: 500;
+}

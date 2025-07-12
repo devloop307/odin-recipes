@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(243, 249, 255);
+    background-color: rgb(219, 237, 255);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -94,7 +94,7 @@ a{
     text-align: center;
 }
 
-b{
+.br{
     color: rgb(23, 108, 177);
     font-weight: 500;
 }

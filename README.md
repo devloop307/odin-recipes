@@ -1,1 +1,1 @@
-Lista de recetas en HTML
+Lista de recetas en HTML whitout flexbox

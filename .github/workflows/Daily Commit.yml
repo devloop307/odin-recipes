@@ -1,0 +1,31 @@
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:       
+
+permissions:
+  contents: write 
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Modificar archivo
+        run: |
+          echo "Última actualización: $(date)" >> update.log
+
+      - name: Configurar git
+        run: |
+          git config user.name "devloop307"
+          git config user.email "devloop307@gmail.com"
+
+      - name: Commit y Push
+        run: |
+          git add .
+          git commit -m "Auto update: $(date)" || echo "No hay cambios"
+          git push
